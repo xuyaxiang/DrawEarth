@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62DA6201E95DA4D0045176B /* sun.bmp in Resources */ = {isa = PBXBuildFile; fileRef = F62DA61F1E95DA4D0045176B /* sun.bmp */; };
+		F64FDC7A1E93C08600751031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F64FDC791E93C08600751031 /* main.m */; };
+		F64FDC7D1E93C08600751031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F64FDC7C1E93C08600751031 /* AppDelegate.m */; };
+		F64FDC801E93C08600751031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64FDC7F1E93C08600751031 /* ViewController.m */; };
+		F64FDC831E93C08600751031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64FDC811E93C08600751031 /* Main.storyboard */; };
+		F64FDC851E93C08600751031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64FDC841E93C08600751031 /* Assets.xcassets */; };
+		F64FDC881E93C08600751031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64FDC861E93C08600751031 /* LaunchScreen.storyboard */; };
+		F64FDC931E93C08600751031 /* DrawEarthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64FDC921E93C08600751031 /* DrawEarthTests.m */; };
+		F64FDC9E1E93C08600751031 /* DrawEarthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64FDC9D1E93C08600751031 /* DrawEarthUITests.m */; };
+		F64FDCAC1E93C0CB00751031 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F64FDCAB1E93C0CB00751031 /* Earth512x256.jpg */; };
+		F64FDCAF1E93C0DB00751031 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F64FDCAD1E93C0DB00751031 /* Shader.fsh */; };
+		F64FDCB01E93C0DB00751031 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F64FDCAE1E93C0DB00751031 /* Shader.vsh */; };
+		F64FDCB31E93DE0F00751031 /* Moon256x128.png in Resources */ = {isa = PBXBuildFile; fileRef = F64FDCB21E93DE0F00751031 /* Moon256x128.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F64FDC8F1E93C08600751031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F64FDC6D1E93C08600751031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64FDC741E93C08600751031;
+			remoteInfo = DrawEarth;
+		};
+		F64FDC9A1E93C08600751031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F64FDC6D1E93C08600751031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64FDC741E93C08600751031;
+			remoteInfo = DrawEarth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F62DA61F1E95DA4D0045176B /* sun.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sun.bmp; sourceTree = "<group>"; };
+		F64FDC751E93C08600751031 /* DrawEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64FDC791E93C08600751031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F64FDC7B1E93C08600751031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F64FDC7C1E93C08600751031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F64FDC7E1E93C08600751031 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F64FDC7F1E93C08600751031 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F64FDC821E93C08600751031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F64FDC841E93C08600751031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F64FDC871E93C08600751031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F64FDC891E93C08600751031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64FDC8E1E93C08600751031 /* DrawEarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawEarthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64FDC921E93C08600751031 /* DrawEarthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawEarthTests.m; sourceTree = "<group>"; };
+		F64FDC941E93C08600751031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64FDC991E93C08600751031 /* DrawEarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawEarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64FDC9D1E93C08600751031 /* DrawEarthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawEarthUITests.m; sourceTree = "<group>"; };
+		F64FDC9F1E93C08600751031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64FDCAB1E93C0CB00751031 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
+		F64FDCAD1E93C0DB00751031 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		F64FDCAE1E93C0DB00751031 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		F64FDCB11E93C1B300751031 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		F64FDCB21E93DE0F00751031 /* Moon256x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon256x128.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64FDC721E93C08600751031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64FDC8B1E93C08600751031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64FDC961E93C08600751031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F64FDC6C1E93C08600751031 = {
+			isa = PBXGroup;
+			children = (
+				F64FDC771E93C08600751031 /* DrawEarth */,
+				F64FDC911E93C08600751031 /* DrawEarthTests */,
+				F64FDC9C1E93C08600751031 /* DrawEarthUITests */,
+				F64FDC761E93C08600751031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F64FDC761E93C08600751031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64FDC751E93C08600751031 /* DrawEarth.app */,
+				F64FDC8E1E93C08600751031 /* DrawEarthTests.xctest */,
+				F64FDC991E93C08600751031 /* DrawEarthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64FDC771E93C08600751031 /* DrawEarth */ = {
+			isa = PBXGroup;
+			children = (
+				F62DA61F1E95DA4D0045176B /* sun.bmp */,
+				F64FDCB21E93DE0F00751031 /* Moon256x128.png */,
+				F64FDCB11E93C1B300751031 /* sphere.h */,
+				F64FDCAD1E93C0DB00751031 /* Shader.fsh */,
+				F64FDCAE1E93C0DB00751031 /* Shader.vsh */,
+				F64FDCAB1E93C0CB00751031 /* Earth512x256.jpg */,
+				F64FDC7B1E93C08600751031 /* AppDelegate.h */,
+				F64FDC7C1E93C08600751031 /* AppDelegate.m */,
+				F64FDC7E1E93C08600751031 /* ViewController.h */,
+				F64FDC7F1E93C08600751031 /* ViewController.m */,
+				F64FDC811E93C08600751031 /* Main.storyboard */,
+				F64FDC841E93C08600751031 /* Assets.xcassets */,
+				F64FDC861E93C08600751031 /* LaunchScreen.storyboard */,
+				F64FDC891E93C08600751031 /* Info.plist */,
+				F64FDC781E93C08600751031 /* Supporting Files */,
+			);
+			path = DrawEarth;
+			sourceTree = "<group>";
+		};
+		F64FDC781E93C08600751031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F64FDC791E93C08600751031 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F64FDC911E93C08600751031 /* DrawEarthTests */ = {
+			isa = PBXGroup;
+			children = (
+				F64FDC921E93C08600751031 /* DrawEarthTests.m */,
+				F64FDC941E93C08600751031 /* Info.plist */,
+			);
+			path = DrawEarthTests;
+			sourceTree = "<group>";
+		};
+		F64FDC9C1E93C08600751031 /* DrawEarthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F64FDC9D1E93C08600751031 /* DrawEarthUITests.m */,
+				F64FDC9F1E93C08600751031 /* Info.plist */,
+			);
+			path = DrawEarthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F64FDC741E93C08600751031 /* DrawEarth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64FDCA21E93C08600751031 /* Build configuration list for PBXNativeTarget "DrawEarth" */;
+			buildPhases = (
+				F64FDC711E93C08600751031 /* Sources */,
+				F64FDC721E93C08600751031 /* Frameworks */,
+				F64FDC731E93C08600751031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawEarth;
+			productName = DrawEarth;
+			productReference = F64FDC751E93C08600751031 /* DrawEarth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F64FDC8D1E93C08600751031 /* DrawEarthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64FDCA51E93C08600751031 /* Build configuration list for PBXNativeTarget "DrawEarthTests" */;
+			buildPhases = (
+				F64FDC8A1E93C08600751031 /* Sources */,
+				F64FDC8B1E93C08600751031 /* Frameworks */,
+				F64FDC8C1E93C08600751031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64FDC901E93C08600751031 /* PBXTargetDependency */,
+			);
+			name = DrawEarthTests;
+			productName = DrawEarthTests;
+			productReference = F64FDC8E1E93C08600751031 /* DrawEarthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F64FDC981E93C08600751031 /* DrawEarthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64FDCA81E93C08600751031 /* Build configuration list for PBXNativeTarget "DrawEarthUITests" */;
+			buildPhases = (
+				F64FDC951E93C08600751031 /* Sources */,
+				F64FDC961E93C08600751031 /* Frameworks */,
+				F64FDC971E93C08600751031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64FDC9B1E93C08600751031 /* PBXTargetDependency */,
+			);
+			name = DrawEarthUITests;
+			productName = DrawEarthUITests;
+			productReference = F64FDC991E93C08600751031 /* DrawEarthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F64FDC6D1E93C08600751031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xyxorigation;
+				TargetAttributes = {
+					F64FDC741E93C08600751031 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+					};
+					F64FDC8D1E93C08600751031 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F64FDC741E93C08600751031;
+					};
+					F64FDC981E93C08600751031 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F64FDC741E93C08600751031;
+					};
+				};
+			};
+			buildConfigurationList = F64FDC701E93C08600751031 /* Build configuration list for PBXProject "DrawEarth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F64FDC6C1E93C08600751031;
+			productRefGroup = F64FDC761E93C08600751031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F64FDC741E93C08600751031 /* DrawEarth */,
+				F64FDC8D1E93C08600751031 /* DrawEarthTests */,
+				F64FDC981E93C08600751031 /* DrawEarthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F64FDC731E93C08600751031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64FDCAC1E93C0CB00751031 /* Earth512x256.jpg in Resources */,
+				F64FDCB31E93DE0F00751031 /* Moon256x128.png in Resources */,
+				F62DA6201E95DA4D0045176B /* sun.bmp in Resources */,
+				F64FDC881E93C08600751031 /* LaunchScreen.storyboard in Resources */,
+				F64FDCB01E93C0DB00751031 /* Shader.vsh in Resources */,
+				F64FDC851E93C08600751031 /* Assets.xcassets in Resources */,
+				F64FDC831E93C08600751031 /* Main.storyboard in Resources */,
+				F64FDCAF1E93C0DB00751031 /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64FDC8C1E93C08600751031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64FDC971E93C08600751031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64FDC711E93C08600751031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64FDC801E93C08600751031 /* ViewController.m in Sources */,
+				F64FDC7D1E93C08600751031 /* AppDelegate.m in Sources */,
+				F64FDC7A1E93C08600751031 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64FDC8A1E93C08600751031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64FDC931E93C08600751031 /* DrawEarthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64FDC951E93C08600751031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64FDC9E1E93C08600751031 /* DrawEarthUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F64FDC901E93C08600751031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64FDC741E93C08600751031 /* DrawEarth */;
+			targetProxy = F64FDC8F1E93C08600751031 /* PBXContainerItemProxy */;
+		};
+		F64FDC9B1E93C08600751031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64FDC741E93C08600751031 /* DrawEarth */;
+			targetProxy = F64FDC9A1E93C08600751031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F64FDC811E93C08600751031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64FDC821E93C08600751031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F64FDC861E93C08600751031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64FDC871E93C08600751031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F64FDCA01E93C08600751031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F64FDCA11E93C08600751031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F64FDCA31E93C08600751031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = DrawEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.DrawEarth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F64FDCA41E93C08600751031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = DrawEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.DrawEarth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F64FDCA61E93C08600751031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = DrawEarthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.DrawEarthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawEarth.app/DrawEarth";
+			};
+			name = Debug;
+		};
+		F64FDCA71E93C08600751031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = DrawEarthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.DrawEarthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawEarth.app/DrawEarth";
+			};
+			name = Release;
+		};
+		F64FDCA91E93C08600751031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = DrawEarthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.DrawEarthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawEarth;
+			};
+			name = Debug;
+		};
+		F64FDCAA1E93C08600751031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = DrawEarthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.DrawEarthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawEarth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F64FDC701E93C08600751031 /* Build configuration list for PBXProject "DrawEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64FDCA01E93C08600751031 /* Debug */,
+				F64FDCA11E93C08600751031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64FDCA21E93C08600751031 /* Build configuration list for PBXNativeTarget "DrawEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64FDCA31E93C08600751031 /* Debug */,
+				F64FDCA41E93C08600751031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64FDCA51E93C08600751031 /* Build configuration list for PBXNativeTarget "DrawEarthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64FDCA61E93C08600751031 /* Debug */,
+				F64FDCA71E93C08600751031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64FDCA81E93C08600751031 /* Build configuration list for PBXNativeTarget "DrawEarthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64FDCA91E93C08600751031 /* Debug */,
+				F64FDCAA1E93C08600751031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F64FDC6D1E93C08600751031 /* Project object */;
+}
